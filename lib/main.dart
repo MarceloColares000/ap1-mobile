@@ -58,9 +58,7 @@ class _BancoInterfaceState extends State<BancoInterface> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 40),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Card(
             elevation: 5,
@@ -70,7 +68,6 @@ class _BancoInterfaceState extends State<BancoInterface> {
             child: Padding(
               padding: const EdgeInsets.all(20.0),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(height: 10),
                   Text(
